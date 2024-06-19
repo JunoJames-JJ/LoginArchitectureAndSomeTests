@@ -84,6 +84,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E06F8D6F2C22619100AC6E32 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E08A4F932C2251630093FD6C /* LoginUseCase.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		E06F8D702C22619D00AC6E32 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E08A4FBF2C2252A90093FD6C /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E06F8D712C2261BA00AC6E32 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E08A4FC12C22535D0093FD6C /* LoginCrashlyticsTracker.swift */,
+				E08A4FC32C2253D20093FD6C /* LoginFirebaseAnalyticsTracker.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		E06F8D722C2261C800AC6E32 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E08A4FC52C2258270093FD6C /* LoginUseCaseComposerDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E06F8D732C2261D400AC6E32 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E08A4FA62C2251650093FD6C /* LoginUseCaseOutputComposerTests.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		E08A4F832C2251630093FD6C = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +150,10 @@
 			children = (
 				E08A4F8F2C2251630093FD6C /* AppDelegate.swift */,
 				E08A4F912C2251630093FD6C /* SceneDelegate.swift */,
-				E08A4F932C2251630093FD6C /* LoginUseCase.swift */,
-				E08A4FBF2C2252A90093FD6C /* LoginPresenter.swift */,
-				E08A4FC12C22535D0093FD6C /* LoginCrashlyticsTracker.swift */,
-				E08A4FC32C2253D20093FD6C /* LoginFirebaseAnalyticsTracker.swift */,
-				E08A4FC52C2258270093FD6C /* LoginUseCaseComposerDelegate.swift */,
+				E06F8D6F2C22619100AC6E32 /* Business */,
+				E06F8D702C22619D00AC6E32 /* Presenter */,
+				E06F8D712C2261BA00AC6E32 /* Analytics */,
+				E06F8D722C2261C800AC6E32 /* Main */,
 				E08A4F952C2251630093FD6C /* Main.storyboard */,
 				E08A4F982C2251650093FD6C /* Assets.xcassets */,
 				E08A4F9A2C2251650093FD6C /* LaunchScreen.storyboard */,
@@ -125,7 +165,7 @@
 		E08A4FA52C2251650093FD6C /* LoginArchitectureAndTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				E08A4FA62C2251650093FD6C /* LoginUseCaseOutputComposerTests.swift */,
+				E06F8D732C2261D400AC6E32 /* Main */,
 			);
 			path = LoginArchitectureAndTestsTests;
 			sourceTree = "<group>";
