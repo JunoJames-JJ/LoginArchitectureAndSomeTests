@@ -2,7 +2,7 @@
 //  LoginArchitectureAndTestsTests.swift
 //  LoginArchitectureAndTestsTests
 //
-//  Created by Jobin Joseph on 2024-06-18.
+//  Created by Juno James on 2024-06-18.
 //
 
 import XCTest
